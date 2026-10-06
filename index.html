@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thoughtfully furnished executive stays in Baltimore's most walkable waterfront neighborhoods.">
+  <meta name="theme-color" content="#17231f">
+  <title>Chase Street Properties — Stay Baltimore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="intro" aria-hidden="true">
+    <div class="intro__grain"></div>
+    <div class="intro__mark">
+      <svg viewBox="0 0 120 120" role="img" aria-label="Chase Street Properties">
+        <path d="M90 28c-8-9-18-13-30-13-25 0-43 19-43 45s18 45 43 45c12 0 23-4 31-13"/>
+        <path d="M99 40c-4-8-12-12-22-12-13 0-22 7-22 17 0 24 45 11 45 39 0 11-10 20-25 20-10 0-19-4-24-11"/>
+      </svg>
+      <p>Chase Street Properties</p>
+      <span>Baltimore · Maryland</span>
+    </div>
+  </div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="Chase Street Properties, home">
+      <span class="brand__monogram">CS</span>
+      <span class="brand__name">Chase Street <small>Properties</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#story">Our story</a>
+      <a href="#stays">The stays</a>
+      <a href="#baltimore">Baltimore</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="header-book" href="#availability">Book a stay <span>↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <nav aria-label="Mobile navigation">
+      <a href="#story"><span>01</span> Our story</a>
+      <a href="#stays"><span>02</span> The stays</a>
+      <a href="#baltimore"><span>03</span> Baltimore</a>
+      <a href="#contact"><span>04</span> Contact</a>
+    </nav>
+    <div class="mobile-menu__footer">
+      <a href="tel:+14102188462">+1 410 218 8462</a>
+      <a href="mailto:info@chasestreetproperties.net">info@chasestreetproperties.net</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__sticky">
+        <div class="hero__media" data-hero-media>
+          <video autoplay muted loop playsinline preload="metadata" poster="https://www.chasestreetproperties.net/images/bg.webp">
+            <source src="https://www.chasestreetproperties.net/images/Gonzalo.mp4" type="video/mp4">
+          </video>
+          <div class="hero__scrim"></div>
+        </div>
+        <div class="hero__content" data-hero-content>
+          <p class="eyebrow light"><span></span> Furnished stays · Baltimore</p>
+          <h1 id="hero-title">Live like<br><em>you belong.</em></h1>
+          <div class="hero__lower">
+            <p>Considered homes for business trips, relocations and weekends by the water.</p>
+            <a class="circle-link light" href="#story"><span>Discover</span><i>↓</i></a>
+          </div>
+        </div>
+        <p class="hero__side-note">39.2904° N · 76.6122° W</p>
+        <div class="hero__reframe" aria-hidden="true">
+          <span>YOUR BALTIMORE ADDRESS</span>
+          <p>Stay awhile.</p>
+        </div>
+        <div class="scroll-cue"><span>SCROLL TO EXPLORE</span><i></i></div>
+      </div>
+    </section>
+
+    <section class="availability" id="availability" aria-label="Check availability">
+      <form class="booking-bar" id="booking-form">
+        <div class="booking-bar__intro">
+          <span>Plan your stay</span>
+          <strong>Find your Baltimore home</strong>
+        </div>
+        <label>
+          <span>Check in</span>
+          <input type="date" name="checkin" required>
+        </label>
+        <label>
+          <span>Check out</span>
+          <input type="date" name="checkout" required>
+        </label>
+        <label>
+          <span>Guests</span>
+          <select name="guests" aria-label="Number of guests">
+            <option value="1">1 guest</option>
+            <option value="2" selected>2 guests</option>
+            <option value="3">3 guests</option>
+            <option value="4">4 guests</option>
+            <option value="5">5 guests</option>
+            <option value="6">6 guests</option>
+          </select>
+        </label>
+        <button type="submit">Check stays <span>↗</span></button>
+      </form>
+      <p class="booking-message" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="story section-pad" id="story">
+      <div class="chapter-line reveal">
+        <span>01 — Our story</span>
+        <span>A different way to stay</span>
+      </div>
+      <div class="story__heading reveal">
+        <h2>Arrive in Baltimore.<br><em>Feel at home.</em></h2>
+        <div class="story__copy">
+          <p>We turn extended stays into an experience that feels easy, personal and genuinely local.</p>
+          <p>More than forty furnished homes, each ready from day one—beautifully considered, professionally cared for, and close to the places that make Baltimore memorable.</p>
+          <a class="text-link" href="#stays">Explore the collection <span>↗</span></a>
+        </div>
+      </div>
+      <div class="story__collage">
+        <figure class="story__image story__image--large image-reveal">
+          <img src="https://www.chasestreetproperties.net/images/about.webp" alt="Light-filled furnished living room at Chase Street Properties" loading="lazy">
+          <figcaption><span>01</span> Spaces made for real life</figcaption>
+        </figure>
+        <div class="story__note reveal">
+          <span class="handwritten">No hotel routine.</span>
+          <p>Just your own front door, your own rhythm, and a city waiting outside.</p>
+        </div>
+        <figure class="story__image story__image--small image-reveal">
+          <img src="https://www.chasestreetproperties.net/images/about2.webp" alt="Warm bedroom in a Baltimore furnished rental" loading="lazy">
+          <figcaption><span>02</span> Details that feel personal</figcaption>
+        </figure>
+      </div>
+      <div class="story__facts reveal" aria-label="Chase Street Properties facts">
+        <div><strong>40<sup>+</sup></strong><span>Furnished<br>homes</span></div>
+        <div><strong>03<sup>+</sup></strong><span>Night minimum<br>stay</span></div>
+        <div><strong>24/7</strong><span>Self check-in<br>& support</span></div>
+        <div><strong>01</strong><span>Remarkable<br>Baltimore</span></div>
+      </div>
+    </section>
+
+    <section class="collection" id="stays">
+      <div class="collection__intro section-pad">
+        <div class="chapter-line reveal">
+          <span>02 — The stays</span>
+          <span>Selected residences</span>
+        </div>
+        <div class="collection__heading reveal">
+          <h2>A place for<br><em>every pace.</em></h2>
+          <p>From quiet solo retreats to generous homes for the whole crew. Every stay has its own character—and the same high standard of comfort.</p>
+        </div>
+      </div>
+
+      <div class="stay-list">
+        <article class="stay-card" data-index="01">
+          <a class="stay-card__media" href="https://www.chasestreetproperties.net/property-details.php?pid=1" target="_blank" rel="noreferrer">
+            <img src="https://www.chasestreetproperties.net/uploads/property_list_img/5eca3b19-9431-47d2-b928-0a6a2b1f671e_1660155115_1660170093_1660669083_1661532110.jpg" alt="Cozy and quiet Baltimore retreat" loading="lazy">
+            <span class="stay-card__number">01 / 03</span>
+            <span class="stay-card__view">View stay ↗</span>
+          </a>
+          <div class="stay-card__body">
+            <div>
+              <p class="eyebrow">Canton · Baltimore</p>
+              <h3>Quiet<br><em>Retreat</em></h3>
+            </div>
+            <div class="stay-card__details">
+              <p>A calm, private base with seamless self check-in—made for the independent traveler.</p>
+              <ul><li>2 guests</li><li>1 bed</li><li>1 bath</li></ul>
+              <p class="price">From <strong>$99</strong> / night</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="stay-card stay-card--reverse" data-index="02">
+          <a class="stay-card__media" href="https://www.chasestreetproperties.net/property-details.php?pid=2" target="_blank" rel="noreferrer">
+            <img src="https://www.chasestreetproperties.net/uploads/property_list_img/hudsonliving_1661518528_1661532267.jpg" alt="Fantastic Canton home near Johns Hopkins" loading="lazy">
+            <span class="stay-card__number">02 / 03</span>
+            <span class="stay-card__view">View stay ↗</span>
+          </a>
+          <div class="stay-card__body">
+            <div>
+              <p class="eyebrow">Hudson Street · Canton</p>
+              <h3>The<br><em>Townhouse</em></h3>
+            </div>
+            <div class="stay-card__details">
+              <p>A characterful city home near Johns Hopkins and Bayview, with room to settle in.</p>
+              <ul><li>4 guests</li><li>3 beds</li><li>1.5 baths</li></ul>
+              <p class="price">From <strong>$149</strong> / night</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="stay-card" data-index="03">
+          <a class="stay-card__media" href="https://www.chasestreetproperties.net/property-details.php?pid=3" target="_blank" rel="noreferrer">
+            <img src="https://www.chasestreetproperties.net/uploads/property_list_img/6acf57d7-4d5c-403c-ab68-fccffbd1828a_1660161150.webp" alt="Spacious Baltimore home near Inner Harbor" loading="lazy">
+            <span class="stay-card__number">03 / 03</span>
+            <span class="stay-card__view">View stay ↗</span>
+          </a>
+          <div class="stay-card__body">
+            <div>
+              <p class="eyebrow">Inner Harbor · Downtown</p>
+              <h3>Harbor<br><em>House</em></h3>
+            </div>
+            <div class="stay-card__details">
+              <p>A spacious city stay close to the Convention Center, stadiums and waterfront landmarks.</p>
+              <ul><li>6 guests</li><li>6 beds</li><li>1 bath</li></ul>
+              <p class="price">From <strong>$149</strong> / night</p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="collection__footer section-pad reveal">
+        <p>Something else in mind?</p>
+        <a href="https://www.chasestreetproperties.net/property-list.php" target="_blank" rel="noreferrer">Browse all residences <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="promise">
+      <div class="promise__media image-reveal">
+        <img src="https://www.chasestreetproperties.net/images/bg.webp" alt="View over Baltimore's waterfront district" loading="lazy">
+      </div>
+      <div class="promise__content section-pad">
+        <p class="eyebrow light reveal">What comes standard</p>
+        <h2 class="reveal">Everything you need.<br><em>Nothing you don’t.</em></h2>
+        <div class="promise__grid reveal">
+          <article><span>01</span><h3>Move-in ready</h3><p>Furnished, connected and stocked with the essentials before you arrive.</p></article>
+          <article><span>02</span><h3>Live like a local</h3><p>Walkable addresses near the harbor, hospitals, campuses and neighborhood favorites.</p></article>
+          <article><span>03</span><h3>Here when needed</h3><p>Responsive local support and simple self check-in, day or night.</p></article>
+          <article><span>04</span><h3>Stay your way</h3><p>Flexible homes for a few nights, a project assignment, or a fresh beginning.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="baltimore section-pad" id="baltimore">
+      <div class="chapter-line reveal">
+        <span>03 — The city</span>
+        <span>At your doorstep</span>
+      </div>
+      <div class="baltimore__heading reveal">
+        <h2>The charm is<br><em>in the details.</em></h2>
+        <p>Brick rowhomes. Harbor light. Creative kitchens and storied streets. Baltimore rewards those who get close enough to know it.</p>
+      </div>
+      <div class="places">
+        <a class="place place--harbor image-reveal" href="https://baltimore.org/what-to-do/baltimore-inner-harbor/" target="_blank" rel="noreferrer">
+          <img src="https://www.chasestreetproperties.net/uploads/things_to_do/1/usa-maryland-baltimore-inner-harbor_1691259038.jpg" alt="Baltimore Inner Harbor" loading="lazy">
+          <span>01</span><h3>Inner Harbor</h3><p>Waterfront · 8 min</p>
+        </a>
+        <a class="place place--walters image-reveal" href="https://thewalters.org/" target="_blank" rel="noreferrer">
+          <img src="https://www.chasestreetproperties.net/uploads/things_to_do/1/maryland-top-attractions-walters-art-museum-staircase.jpg" alt="Grand staircase inside the Walters Art Museum" loading="lazy">
+          <span>02</span><h3>The Walters</h3><p>Art & culture · 12 min</p>
+        </a>
+        <a class="place place--fort image-reveal" href="https://www.nps.gov/fomc/index.htm" target="_blank" rel="noreferrer">
+          <img src="https://www.chasestreetproperties.net/uploads/things_to_do/1/maryland-top-attractions-fort-mchenry-national-monument.jpg" alt="Fort McHenry National Monument" loading="lazy">
+          <span>03</span><h3>Fort McHenry</h3><p>History · 10 min</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="testimonial section-pad">
+      <div class="testimonial__mark">“</div>
+      <blockquote class="reveal">Excellent location, safe and very close to the Inner Harbor. The team was phenomenal—truly an excellent stay.</blockquote>
+      <div class="testimonial__meta reveal">
+        <span>Aaron</span>
+        <span>Verified guest</span>
+        <span>★★★★★</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer__top section-pad">
+      <p class="eyebrow light">Your next stay starts here</p>
+      <h2>Make Baltimore<br><em>feel like home.</em></h2>
+      <div class="footer__action">
+        <p>Tell us what brings you to the city. We’ll help match you with a home that fits.</p>
+        <a class="round-cta" href="mailto:info@chasestreetproperties.net">Start a conversation <span>↗</span></a>
+      </div>
+    </div>
+    <div class="footer__middle section-pad">
+      <div class="footer__brand">
+        <span class="brand__monogram">CS</span>
+        <p>Chase Street<br>Properties</p>
+      </div>
+      <div class="footer__column"><span>Visit</span><p>3037 Hudson Street<br>Baltimore, MD 21224</p></div>
+      <div class="footer__column"><span>Contact</span><a href="tel:+14102188462">+1 410 218 8462</a><a href="mailto:info@chasestreetproperties.net">info@chasestreetproperties.net</a></div>
+      <div class="footer__column"><span>Explore</span><a href="https://www.facebook.com/gonzalo.jouan" target="_blank" rel="noreferrer">Facebook ↗</a><a href="https://www.chasestreetproperties.net/property-list.php" target="_blank" rel="noreferrer">All stays ↗</a></div>
+    </div>
+    <div class="footer__bottom section-pad">
+      <span>© <span id="year"></span> Chase Street Properties</span>
+      <span>Furnished stays · Baltimore, Maryland</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
